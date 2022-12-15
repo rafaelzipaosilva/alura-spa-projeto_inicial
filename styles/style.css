@@ -13,10 +13,10 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  color: #9FC088;
+  color: #9A86A4;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #E8C07D;
+  border-bottom: 2px solid #B1BCE6;
 }
 
 .banner {
@@ -30,17 +30,17 @@ nav ul li a:hover {
 }
 .banner .inner-banner {
   padding: 3rem;
-  background-color: #CC704B;
+  background-color: #B7E5DD;
   opacity: 0.9;
   border-radius: 60px;
 }
 .banner .inner-banner h1 {
   font-size: 3rem;
-  color: #9FC088;
+  color: #9A86A4;
 }
 .banner .inner-banner h2 {
   font-size: 1.5rem;
-  color: #E8C07D;
+  color: #B1BCE6;
 }
 
 #servicos {
@@ -48,7 +48,7 @@ nav ul li a:hover {
 }
 #servicos h3 {
   font-size: 1.2rem;
-  color: #E8C07D;
+  color: #B1BCE6;
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
@@ -73,29 +73,29 @@ nav ul li a:hover {
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 20px;
-  color: #9FC088;
+  color: #9A86A4;
 }
 #servicos .cards .card p {
   font-size: 1rem;
   font-weight: 300;
-  color: #9FC088;
+  color: #9A86A4;
   line-height: 1.25rem;
 }
 #servicos .cards .card .img-container {
   padding-bottom: 2px;
-  border-bottom: 6px solid #E8C07D;
+  border-bottom: 6px solid #B1BCE6;
 }
 #servicos .cards .card .img-container img {
   max-width: 100%;
 }
 
 #cupom {
-  background-color: #CC704B;
+  background-color: #B7E5DD;
   padding: 4rem;
   text-align: center;
 }
 #cupom .texto {
-  color: #9FC088;
+  color: #9A86A4;
 }
 #cupom .texto h2 {
   margin: 2rem;
@@ -118,7 +118,7 @@ nav ul li a:hover {
   font-size: 26px;
 }
 #cupom .input:hover, #cupom .input:focus-within {
-  box-shadow: 1px 1px 8px 1px #9FC088;
+  box-shadow: 1px 1px 8px 1px #9A86A4;
   outline: none;
 }
 #cupom button {
@@ -128,17 +128,63 @@ nav ul li a:hover {
   height: 40px;
   text-align: center;
   width: 130px;
-  background-color: #9FC088;
-  color: #E8C07D;
+  background-color: #9A86A4;
+  color: #B1BCE6;
   letter-spacing: 1px;
   font-size: 12px;
   font-weight: bold;
   cursor: pointer;
-  border: 2px #9FC088;
+  border: 2px #9A86A4;
   border-radius: 40px;
 }
 #cupom button:hover {
-  color: #9FC088;
-  background-color: #E8C07D;
-  border-color: #CC704B;
+  color: #9A86A4;
+  background-color: #B1BCE6;
+  border-color: #B7E5DD;
+}
+
+#be {
+  display: flex;
+  margin: 80px;
+  align-items: center;
+}
+#be .be-img img {
+  padding-bottom: 0.2px;
+  border-bottom: 6px solid #B1BCE6;
+  max-width: 100%;
+}
+#be .be-texto {
+  margin: 0 100px;
+}
+#be .be-texto h3, #be .be-texto h4 {
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #9A86A4;
+}
+#be .be-texto h3 {
+  font-size: 2rem;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #B1BCE6;
+}
+#be .be-texto h4 {
+  font-size: 1.5rem;
+}
+#be .be-texto p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #9A86A4;
+  line-height: 1.25rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #9A86A4;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #9A86A4, #B1BCE6, #B7E5DD, #9A86A4);
+}
+footer i {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
